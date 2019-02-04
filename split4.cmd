@@ -7,4 +7,4 @@ ffmpeg ^
  -segment_time 20:00 ^
  -segment_start_number 1 ^
  -metadata album="%~n1" ^
- "%%04d %~n1.m4a"
+ "%%03d - %~n1.m4a"
